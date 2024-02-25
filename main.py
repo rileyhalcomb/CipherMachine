@@ -18,7 +18,6 @@ def encrypt(message, key):
             index = index - len(characters)
 
         encrypted_message += characters[index]
-    #print(encrypted_message)
     encrypted_message2 = ''
     for character in encrypted_message:
         index = characters.index(character) + int(key[1:3])
@@ -26,7 +25,6 @@ def encrypt(message, key):
         if index > len(characters):
             index = index - len(characters)
         encrypted_message2 += characters[index]
-    #print(encrypted_message2)
     return encrypted_message2
 
 def decrypt(message, key):
