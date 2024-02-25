@@ -1,5 +1,5 @@
 # Cipher Machine
-<img src="dino.png" width="300" height="300" />
+<img src="dinonew.png" width="300" height="300" />
 
 ## Introduction
 The cipher machine is designed to create a basic understanding of how ciphers function. This application was created for expanding our knowledge on ciphers and how they can be used to encrypt and decrypt text.
